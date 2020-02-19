@@ -1,3 +1,4 @@
+const {performance} = require('perf_hooks');
 const chars = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 var final = "";
 var t0 = performance.now();

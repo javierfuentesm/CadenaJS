@@ -1,6 +1,7 @@
+const {performance} = require('perf_hooks');
 var t0 = performance.now();
 
-var max = 100000.0;
+var max = 100000000.0;
 var seno,cose,tang,logn,raiz;
 var i = 0.0;
 while(i < max){
